@@ -112,3 +112,12 @@ footer ul{list-style:none;margin:0;padding:0}footer li{margin:.3em 0}
 footer .credits{font-size:.82rem;color:#9fb3c0;margin-top:18px}
 footer .credits+.credits{margin-top:6px}
 footer a.old{font-size:.82rem;color:#9fb3c0}footer a.old:hover{color:#fff}
+/* pest levels + untested label */
+.lv{display:inline-block;font:700 .78rem/1 var(--sans);padding:5px 9px;border-radius:999px;white-space:nowrap;border:1px solid transparent}
+.lv.low{background:#dff3e6;color:#145c32;border-color:#b6e2c5}
+.lv.watch{background:#fff1c2;color:#6b4d00;border-color:#f1d77a}
+.lv.high{background:var(--coral-soft);color:#8a2412;border-color:#f4a08b}
+.lv.not-relevant{background:#eceff1;color:#5b6770;border-color:#d6dbde}
+.callout.untested{border-left:6px solid var(--coral);background:var(--coral-soft);padding:18px 20px}
+.callout.untested p.ut-h{font:700 .8rem/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:#8a2412;margin:0 0 .6em}
+.callout.untested p{font-size:1.05rem}
