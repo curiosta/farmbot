@@ -121,3 +121,23 @@ footer a.old{font-size:.82rem;color:#9fb3c0}footer a.old:hover{color:#fff}
 .callout.untested{border-left:6px solid var(--coral);background:var(--coral-soft);padding:18px 20px}
 .callout.untested p.ut-h{font:700 .8rem/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:#8a2412;margin:0 0 .6em}
 .callout.untested p{font-size:1.05rem}
+/* plot cards with a small map preview (Pick a plot) */
+.plotcard .plotmap{display:block;margin:-22px -22px 16px;overflow:hidden;border-radius:var(--radius) var(--radius) 0 0;border-bottom:1px solid var(--line);background:#2b3a33}
+.plotcard .plotmap img{display:block;width:100%;height:auto;border-radius:0;aspect-ratio:10/7}
+@media (max-width:600px){.plotcard .plotmap img{aspect-ratio:6/5}}
+/* saved weekly report banner (/reports/<date>/) */
+.archive-banner{background:#fff4d6;border-bottom:1px solid #e6cf8f;color:#3b2f0a;padding:12px 0;font-size:.95rem}
+.archive-banner a{font-weight:600}
+/* pest risk cards (Nilabadi pest alerts, one per pest per plot) */
+.grid.riskcards{grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.card.risk{padding:16px 18px;border-left:5px solid #9ccc65}
+.card.risk h4{margin:0 0 6px;font-size:1rem}
+.card.risk.high{border-left-color:#e53935}.card.risk.watch{border-left-color:#ffca28}.card.risk.not-relevant{border-left-color:#c9c9c9;opacity:.85}
+details.more{margin-top:14px}details.more summary{cursor:pointer;font-weight:600}
+/* pricing */
+.plans .plan{display:flex;flex-direction:column}
+.plan .price{font:600 1.6rem/1.2 var(--serif);color:var(--sea-700);margin:4px 0 12px}
+.plan.paid{border-top:4px solid var(--coral)}
+.btn-off{opacity:.6;cursor:default;pointer-events:none}
+.plan .price-note{font:600 1.15rem/1.4 var(--serif);color:var(--sea-700);margin:4px 0 12px}
+@media(max-width:560px){#village-stage table.wide thead{display:none}#village-stage table.wide,#village-stage table.wide tbody,#village-stage table.wide tr,#village-stage table.wide td{display:block;width:auto}#village-stage table.wide tr{border-bottom:1px solid var(--line);padding:8px 0}#village-stage table.wide td{border:0;padding:4px 14px;white-space:normal}#village-stage table.wide{min-width:0}}
