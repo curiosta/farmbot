@@ -141,3 +141,21 @@ details.more{margin-top:14px}details.more summary{cursor:pointer;font-weight:600
 .btn-off{opacity:.6;cursor:default;pointer-events:none}
 .plan .price-note{font:600 1.15rem/1.4 var(--serif);color:var(--sea-700);margin:4px 0 12px}
 @media(max-width:560px){#village-stage table.wide thead{display:none}#village-stage table.wide,#village-stage table.wide tbody,#village-stage table.wide tr,#village-stage table.wide td{display:block;width:auto}#village-stage table.wide tr{border-bottom:1px solid var(--line);padding:8px 0}#village-stage table.wide td{border:0;padding:4px 14px;white-space:normal}#village-stage table.wide{min-width:0}}
+/* v4: 6 nav items (Village added after Home); tighter on the smallest phones so all 6 stay on one row */
+@media(max-width:400px){.nav .wrap{padding-left:10px;padding-right:10px}.nav ul{gap:0}.nav a.l{padding:8px 2px;font-size:.8rem;letter-spacing:-.01em}}
+@media(max-width:340px){.nav a.l{font-size:.74rem}}
+/* v4: pest photo guide (/pest-id/) and thumbnails on alerts */
+.pidjump{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0 0 18px}
+.pidjump a{display:inline-block;padding:6px 12px;border:1px solid var(--line);border-radius:999px;text-decoration:none;font-size:.9rem;background:#fff}
+.pidphotos{display:grid;gap:14px;align-content:start}
+.pidfig{margin:0;padding:10px}.pidfig img{border-radius:10px;width:100%}
+.pidfig .credit{display:block;margin-top:4px;color:var(--ink-2);font-size:.78rem;overflow-wrap:anywhere}
+.nophoto .ph{display:inline-block;padding:2px 8px;border:1px dashed var(--line);border-radius:6px;font-size:.78rem;color:var(--ink-2)}
+.nophoto .ph.big{font-size:1rem;padding:28px 16px;width:100%;text-align:center;box-sizing:border-box}
+.pidlink{display:flex;align-items:center;gap:10px;margin-top:10px;font-size:.88rem;text-decoration:none}
+.pidlink img{width:80px;height:60px;border-radius:8px;object-fit:cover;flex:0 0 auto}
+.pidlink span{text-decoration:underline}.pidlink .ph{text-decoration:none;width:80px;text-align:center;box-sizing:border-box}
+.pidrow{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:2px 0}
+.pidmini{display:inline-flex;align-items:center;font-size:.8rem}
+.pidmini img{width:48px;height:36px;border-radius:6px;object-fit:cover}
+.pidgrid{align-items:start}
