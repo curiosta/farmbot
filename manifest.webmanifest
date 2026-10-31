@@ -1,0 +1,33 @@
+{
+ "id": "/",
+ "name": "FarmBot · Nilabadi",
+ "short_name": "FarmBot",
+ "description": "Pest alerts, weekly crop updates and satellite views of paddy in Nilabadi, Koraput, Odisha.",
+ "lang": "en",
+ "dir": "ltr",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#041726",
+ "theme_color": "#041726",
+ "icons": [
+  {
+   "src": "assets/pwa/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "assets/pwa/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "assets/pwa/icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
