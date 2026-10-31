@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Recommendations, yield &amp; more · FarmBot</title><meta name="description" content="Weekly recommendations, a relative yield index, harvest timing, weak zones, radar and a rabi water budget for the exact Nilabadi plots.">
+<link rel="canonical" href="https://farmbot.curiosta.com/insights/"><meta property="og:type" content="website"><meta property="og:title" content="Recommendations, yield &amp; more · FarmBot">
+<meta property="og:description" content="Weekly recommendations, a relative yield index, harvest timing, weak zones, radar and a rabi water budget for the exact Nilabadi plots."><meta property="og:url" content="https://farmbot.curiosta.com/insights/"><meta property="og:image" content="https://farmbot.curiosta.com/assets/img/og.webp">
+<meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#041726">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+</head><body>
+<header class="nav"><div class="wrap"><a class="brand" href="/">Farm<span>Bot</span></a><nav aria-label="Main"><ul><li><a class="l" href="/">Overview</a></li><li><a class="l" href="/pest-alerts/">Pest alerts</a></li><li><a class="l" href="/insights/" aria-current="page">Insights</a></li><li><a class="l" href="/village/">Village</a></li><li><a class="l" href="/plots/fishing-pond/">Pond plot</a></li><li><a class="l" href="/plots/agnigangamma-temple/">Temple plot</a></li><li><a class="l" href="/weather-water/">Weather & water</a></li><li><a class="l" href="/methods/">Methods</a></li><li><a class="l" href="/roadmap/">Roadmap</a></li></ul></nav></div></header>
+<main><section class="hero page"><div class="wrap"><p class="eyebrow">Insights</p><h1>Recommendations, yield and water</h1><p class="lead">Weekly advice, a relative yield index and five satellite workstreams. Early results are marked experimental.</p></div></section>
+<section class="block"><div class="wrap"><div class="head"><p class="eyebrow">Priority 2</p><h2>Weekly recommendations</h2>
+<p>Each week FarmBot will write a short note per plot. It combines the crop stage from satellite, the pest-risk check, the rain and evapotranspiration balance, and the newest ICAR-NRRI and IMD agromet advisories for Koraput. Every line will cite its source, and anything modelled will say so.</p></div>
+<div class="grid"><div class="card"><h4>Crop stage</h4><p>From the NDVI curve now, from radar later. Shown on each plot page.</p></div>
+<div class="card"><h4>Water</h4><p>Rain minus reference evapotranspiration (ET0) for the past and coming week <span class="tag">Modelled</span>, and pond water area <span class="tag obs">Satellite-observed</span>.</p></div>
+<div class="card"><h4>Pests and official advice</h4><p>The <a href="/pest-alerts/">pest-risk check</a>, plus links to the matching advisory text. The note does not prescribe doses.</p></div></div></div></section>
+
+<section class="block alt"><div class="wrap"><div class="head"><p class="eyebrow">Priority 3</p><h2>Relative yield index <span class="tag exp">Experimental</span></h2>
+<p>Satellites can't weigh grain. What they can show is how green and dense the canopy was compared with other seasons and plots. FarmBot will use the season's peak NDVI and the season's summed (integrated) NDVI as a <strong>relative index, not tonnes</strong>. The numbers below use only the pixels inside the exact outlines.</p></div>
+<div class="tablewrap"><table><thead><tr><th>Plot</th><th>Median NDVI, 1 Oct–23 Oct 2025</th><th>Same window, 2026</th><th>2026 ÷ 2025</th></tr></thead><tbody>
+<tr><td><strong>Nilabadi Fishing Pond fields (A + B)</strong></td><td class='n'>0.84 <small>(0.75–0.90, n=6)</small></td><td class='n'>0.76 <small>(0.59–0.91, n=10)</small></td><td class='n'>0.90</td></tr><tr><td>· Pond-area field A (north-east, by the road)</td><td class='n'>0.85 <small>(0.74–0.90, n=6)</small></td><td class='n'>0.76 <small>(0.60–0.92, n=10)</small></td><td class='n'>0.90</td></tr><tr><td>· Pond-area field B (south-west)</td><td class='n'>0.82 <small>(0.76–0.88, n=6)</small></td><td class='n'>0.71 <small>(0.56–0.89, n=10)</small></td><td class='n'>0.87</td></tr><tr><td><strong>Agnigangamma Temple plot</strong></td><td class='n'>0.79 <small>(0.71–0.85, n=6)</small></td><td class='n'>0.87 <small>(0.68–0.95, n=8)</small></td><td class='n'>1.10</td></tr></tbody></table></div>
+<div class="callout"><h4>What this does and doesn't show</h4><ul class="tidy">
+<li>The data start on 1 Oct 2025, so the only window both seasons share is 1–23 October, near the peak. That window is compared here, not the whole season.</li>
+<li>On the exact outlines the pond fields were <strong>less green this October than last</strong> (ratio 0.90) and the temple plot <strong>greener</strong> (1.10). The earlier square boxes had given 0.98 for the pond and 1.07 for the temple; the pond box held almost none of these fields.</li>
+<li>The pond fields' crop is later this year, not necessarily weaker: their NDVI was still rising on 23 Oct (0.79 smoothed) and the last two dates were close to 2025's values. The 2026 window also contains a few hazy low dates (the brackets show the spread).</li>
+<li>The 2026 season isn't finished, so its peak and integrated NDVI aren't known yet. Read these as early signals only.</li></ul></div></div></section>
+
+<section class="block"><div class="wrap"><div class="head"><p class="eyebrow">Workstream A</p><h2>Harvest-timing heads-up <span class="tag exp">Experimental</span></h2>
+<p>FarmBot watches the weekly change in each plot's smoothed NDVI. When it starts falling steadily after the peak, the crop is ripening. A drop below 0.7 and then 0.5 marked the 2025 harvest window.</p></div>
+<div class="grid two">
+<div class="card"><h4>Nilabadi Fishing Pond fields</h4><p>In 2025 the smoothed NDVI fell below 0.7 on 12 Nov and below 0.5 on 27 Nov. Latest smoothed value: <strong>0.79</strong> on 23 Oct, +0.05 over the past week. <strong>Still greening, no ripening decline.</strong> <span class="tag obs">Satellite-observed</span></p></div>
+<div class="card"><h4>Agnigangamma Temple plot</h4><p>In 2025 the smoothed NDVI fell below 0.7 on 2 Nov and below 0.5 on 22 Nov. Latest smoothed value: <strong>0.87</strong> on 23 Oct, +0.00 over the past week. <strong>At peak, no ripening decline yet.</strong> <span class="tag obs">Satellite-observed</span></p></div></div>
+<p class="cap">Last year's dates are a guide, not a forecast. Variety and transplanting date change the timing, and November cloud can delay the signal.</p></div></section>
+
+<section class="block alt"><div class="wrap"><div class="head"><p class="eyebrow">Workstream B</p><h2>Weak zones inside a plot <span class="tag exp">Experimental</span></h2>
+<p>For each 10 m pixel fully inside the outline, FarmBot compares its NDVI with the field median on the same date, over the clear dates of 1–23 October in 2025 and 2026. A pixel in the bottom 20% in <em>both</em> seasons is a candidate weak zone; about 4% would land there by chance.</p></div>
+<div class="grid two"><figure class="card"><img src="/assets/img/agnigangamma-temple-weak-zones.webp" width="780" height="682" alt="Weak-zone check, temple plot" loading="lazy" decoding="async"><figcaption class="cap">Temple plot, north up. 637 pixels tested; agreement between the two Octobers (Spearman) -0.32; 14 pixels (2%) low in both.</figcaption></figure>
+<div class="card"><h4>What it shows</h4><p><strong>No weak zone is claimed in any plot.</strong> Low pixels in 2025 were not the low pixels in 2026: Spearman -0.37 in pond field A, -0.04 in field B and -0.32 in the temple plot, with fewer pixels low in both years than chance would give.</p>
+<p><strong>Pond fields:</strong> only 85 and 37 pixels sit fully inside, so 10 m imagery can't map patches within them. Drone or phone photos would be needed.</p>
+<p><strong>Earlier weak strip (snapshot):</strong> the strip north of the pond in the <a href="/snapshot/2026-10-31/insights/">31 Oct 2026 snapshot</a> (kept, not updated) came from the 600 m box around the pond. It lies outside both fields (none of its 127 pixels inside, median distance about 249 m), so it says nothing about this land.</p>
+<p><strong>Use for sensors:</strong> with no consistent weak zone, the first soil-moisture probes can go near each field's centre, one per plot.</p></div></div></div></section>
+
+<section class="block"><div class="wrap"><div class="head"><p class="eyebrow">Workstream C</p><h2>Sentinel-1 radar</h2>
+<p>Radar sees through monsoon cloud. Standing water on a paddy field darkens the radar backscatter, which then rises as the canopy grows. That gives flooding and waterlogging dates and an estimate of the transplanting date, during the July–August months that Sentinel-2 missed. These feed the crop-stage and humidity inputs of the pest-risk model. Method only for now; no radar has been processed yet.</p></div></div></section>
+
+<section class="block alt"><div class="wrap"><div class="head"><p class="eyebrow">Workstream D</p><h2>Rabi water budget <span class="tag exp">Experimental</span></h2>
+<p>Can the pond carry a low-water winter crop such as green gram, black gram or mustard? The budget compares the water the pond holds with the crop's need after winter rain.</p></div>
+<div class="grid">
+<div class="card"><p class="stat">1.30 <small>ha</small></p><p>Median pond water area in November 2025 (10 clear dates, MNDWI). It was 0.99 ha in March–May 2026. <span class="tag obs">Satellite-observed</span></p></div>
+<div class="card"><p class="stat">471 − 20 <small>mm</small></p><p>Reference ET0 minus rain, 1 Nov 2025 – 28 Feb 2026: a deficit of 451 mm. <span class="tag">Modelled</span> Open-Meteo.</p></div>
+<div class="card"><p class="stat">≈ 2.9 <small>ha per metre</small></p><p>Each metre of usable depth over 1.30 ha holds about 13,000 m³. At the reference rate, that covers about 2.9 ha of crop.</p></div></div>
+<div class="callout"><h4>Big unknowns</h4><ul class="tidy"><li><strong>Pond depth is unknown.</strong> The answer scales directly with usable depth, so it has to be measured, for example with a level sensor or a staff gauge.</li>
+<li>The figure assumes the crop uses water at the reference ET0 rate. Crop factors for each crop, field losses, the pond's own evaporation and seepage, and fish needs are not yet included. Those losses will lower the hectares.</li>
+<li>Whether the farmers want a rabi crop, and other water sources, are still to be confirmed.</li></ul></div></div></section>
+
+<section class="block"><div class="wrap"><div class="head"><p class="eyebrow">Workstream E · later</p><h2>Neighbouring fields as the baseline</h2>
+<p>Comparing a plot only with itself can't separate a bad season from a weak field. Later, FarmBot will compare each plot's peak and integrated NDVI with nearby Nilabadi cropland in the same season. That turns the relative yield index into "better or worse than the neighbours". This comes with the village-wide view.</p></div></div></section></main>
+<footer><div class="wrap cols"><div><p><strong>FarmBot</strong> · a Curiosta project · Nilabadi (Neelabadi), Bandhugaon, Koraput, Odisha</p>
+<p>Draft built 31 Oct 2026 from data up to 23 Oct 2026. Contains modified Copernicus Sentinel data 2025–2026. Map data © OpenStreetMap contributors. High-resolution imagery: Esri, Maxar, Earthstar Geographics.</p>
+<p>Modelled values (SoilGrids, NASA POWER, Open-Meteo) are estimates, not field measurements.</p></div>
+<div><p><a href="/methods/">Methods &amp; sources</a> · <a href="/roadmap/">Roadmap</a> · <a href="/snapshot/2026-10-31/">Snapshot 31 Oct 2026 (not updated)</a> · <a href="https://curiosta.com">curiosta.com</a></p></div></div></footer>
+</body></html>
