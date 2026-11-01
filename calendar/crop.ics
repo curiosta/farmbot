@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Curiosta//FarmBot Nilabadi calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FarmBot Nilabadi · Crop work
+X-WR-TIMEZONE:Asia/Kolkata
+X-WR-CALDESC:Farming dates for Nilabadi\, Bandhugaon\, Koraput\, Odisha. ht
+ tps://farmbot.curiosta.com/calendar/
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:crop-winter-pulses-20261101@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20270101
+SUMMARY:Winter green gram and black gram: sowing window (estimate)
+DESCRIPTION:Nov to Dec 2026. Estimate. KVK Koraput's sowing window for gree
+ n gram and black gram after the paddy harvest.\n\nSource: KVK Koraput crop
+  guide (Package of Practices) https://www.kvkkoraput.org/upload/menu_08092
+ 025014514.pdf\n\nMore: https://farmbot.curiosta.com/calendar/#ev-winter-pu
+ lses
+URL:https://www.kvkkoraput.org/upload/menu_08092025014514.pdf
+CATEGORIES:Crop work
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-ear-check-20261110@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261115
+SUMMARY:Start checking the ears in both plots (estimate)
+DESCRIPTION:From about 10 Nov 2026. Estimate. Harvest when 80–85% of the 
+ grains are straw-coloured and hard.\n\nSource: FarmBot weekly advice https
+ ://farmbot.curiosta.com/insights/#harvest\n\nMore: https://farmbot.curiost
+ a.com/calendar/#ev-ear-check
+URL:https://farmbot.curiosta.com/insights/#harvest
+CATEGORIES:Crop work
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-harvest-20261115@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261206
+SUMMARY:Paddy harvest window: Agnigangamma Temple plot first\, then the Fis
+ hing Pond plot (estimate)
+DESCRIPTION:15 Nov – 5 Dec 2026. Estimate. Rough window from last year's 
+ harvest and this year's planting dates. Check the grain before cutting.\n\
+ nSource: FarmBot weekly advice https://farmbot.curiosta.com/insights/#harv
+ est\n\nMore: https://farmbot.curiosta.com/calendar/#ev-harvest
+URL:https://farmbot.curiosta.com/insights/#harvest
+CATEGORIES:Crop work
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-pond-sowing-20261201@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Green gram on Panchayat Pond water: assumed sowing day (estimate)
+DESCRIPTION:1 Dec 2026. Estimate. The winter water sums on Advice\, yield a
+ nd harvest assume sowing on this day. Sowing later needs more pond water.\
+ n\nSource: KVK Koraput crop guide (Package of Practices) https://www.kvkko
+ raput.org/upload/menu_08092025014514.pdf\n\nMore: https://farmbot.curiosta
+ .com/calendar/#ev-pond-sowing
+URL:https://farmbot.curiosta.com/insights/#winter-water
+CATEGORIES:Crop work
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-winter-paddy-20261201@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20270108
+SUMMARY:Winter paddy sowing\, only where there is irrigation (estimate)
+DESCRIPTION:1st week of Dec 2026 to 1st week of Jan 2027. Estimate. The Kor
+ aput plan's window for irrigated winter paddy.\n\nSource: ICAR-CRIDA Korap
+ ut contingency plan https://www.icar-crida.res.in/CP/Orissa/OUAT\,%20Bhuba
+ neswar/Orissa%2022-%20Koraput%2031.05.2011.pdf\n\nMore: https://farmbot.cu
+ riosta.com/calendar/#ev-winter-paddy
+URL:https://www.icar-crida.res.in/CP/Orissa/OUAT,%20Bhubaneswar/Orissa%2022
+ -%20Koraput%2031.05.2011.pdf
+CATEGORIES:Crop work
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-summer-pulses-20270215@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270308
+SUMMARY:Summer green gram and black gram sowing\, if pond water lasts (esti
+ mate)
+DESCRIPTION:3rd week of Feb to 1st week of Mar 2027. Estimate. KVK Koraput'
+ s summer sowing window.\n\nSource: KVK Koraput crop guide (Package of Prac
+ tices) https://www.kvkkoraput.org/upload/menu_08092025014514.pdf\n\nMore: 
+ https://farmbot.curiosta.com/calendar/#ev-summer-pulses
+URL:https://www.kvkkoraput.org/upload/menu_08092025014514.pdf
+CATEGORIES:Crop work
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-monsoon-paddy-20270608@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270715
+SUMMARY:Monsoon paddy: nursery and sowing window (estimate)
+DESCRIPTION:2nd week of Jun to 2nd week of Jul 2027. Estimate. The Koraput 
+ plan's window for monsoon paddy.\n\nSource: ICAR-CRIDA Koraput contingency
+  plan https://www.icar-crida.res.in/CP/Orissa/OUAT\,%20Bhubaneswar/Orissa%
+ 2022-%20Koraput%2031.05.2011.pdf\n\nMore: https://farmbot.curiosta.com/cal
+ endar/#ev-monsoon-paddy
+URL:https://www.icar-crida.res.in/CP/Orissa/OUAT,%20Bhubaneswar/Orissa%2022
+ -%20Koraput%2031.05.2011.pdf
+CATEGORIES:Crop work
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-mustard-20271015@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271101
+SUMMARY:Mustard sowing window (estimate)
+DESCRIPTION:Mid to end of Oct 2027. Estimate. KVK Koraput's window for must
+ ard.\n\nSource: KVK Koraput crop guide (Package of Practices) https://www.
+ kvkkoraput.org/upload/menu_08092025014514.pdf\n\nMore: https://farmbot.cur
+ iosta.com/calendar/#ev-mustard
+URL:https://www.kvkkoraput.org/upload/menu_08092025014514.pdf
+CATEGORIES:Crop work
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

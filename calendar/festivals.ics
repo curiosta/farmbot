@@ -1,0 +1,93 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Curiosta//FarmBot Nilabadi calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FarmBot Nilabadi · Festivals and holidays
+X-WR-TIMEZONE:Asia/Kolkata
+X-WR-CALDESC:Farming dates for Nilabadi\, Bandhugaon\, Koraput\, Odisha. ht
+ tps://farmbot.curiosta.com/calendar/
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:festivals-makar-sankranti-20270114@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:Makar Sankranti
+DESCRIPTION:14 Jan 2027. Fixed date. Odisha state holiday.\n\nSource: Odish
+ a Revenue Dept holiday notice\, 30 Oct 2026 https://revenue.odisha.gov.in/
+ sites/default/files/2026-10/44027_1.pdf\nSambad (Odia)\, 30 Oct 2026 https
+ ://sambad.in/state/odisha-government-holidays-2027-29-holidays-announced-s
+ ix-festivals-fall-on-weekends-12769599\n\nMore: https://farmbot.curiosta.c
+ om/calendar/#ev-makar-sankranti
+URL:https://revenue.odisha.gov.in/sites/default/files/2026-10/44027_1.pdf
+CATEGORIES:Festivals and holidays
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:festivals-raja-20270614@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270616
+SUMMARY:Pahili Raja and Raja Sankranti
+DESCRIPTION:14 to 15 Jun 2027. Fixed date. Odisha state holiday on both day
+ s.\n\nSource: Odisha Revenue Dept holiday notice\, 30 Oct 2026 https://rev
+ enue.odisha.gov.in/sites/default/files/2026-10/44027_1.pdf\nSambad (Odia)\
+ , 30 Oct 2026 https://sambad.in/state/odisha-government-holidays-2027-29-h
+ olidays-announced-six-festivals-fall-on-weekends-12769599\n\nMore: https:/
+ /farmbot.curiosta.com/calendar/#ev-raja
+URL:https://revenue.odisha.gov.in/sites/default/files/2026-10/44027_1.pdf
+CATEGORIES:Festivals and holidays
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:festivals-rath-yatra-20270705@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270706
+SUMMARY:Rath Yatra
+DESCRIPTION:5 Jul 2027. Fixed date. Odisha state holiday.\n\nSource: Odisha
+  Revenue Dept holiday notice\, 30 Oct 2026 https://revenue.odisha.gov.in/s
+ ites/default/files/2026-10/44027_1.pdf\nSambad (Odia)\, 30 Oct 2026 https:
+ //sambad.in/state/odisha-government-holidays-2027-29-holidays-announced-si
+ x-festivals-fall-on-weekends-12769599\n\nMore: https://farmbot.curiosta.co
+ m/calendar/#ev-rath-yatra
+URL:https://revenue.odisha.gov.in/sites/default/files/2026-10/44027_1.pdf
+CATEGORIES:Festivals and holidays
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:festivals-nuakhai-20270905@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270907
+SUMMARY:Nuakhai\, the new-rice festival
+DESCRIPTION:5 Sep 2027\, a Sunday\; the holiday is the next day\, 6 Sep 202
+ 7. Fixed date. Odisha state holiday on the day after Nuakhai.\n\nSource: O
+ disha Revenue Dept holiday notice\, 30 Oct 2026 https://revenue.odisha.gov
+ .in/sites/default/files/2026-10/44027_1.pdf\nChief Minister of Odisha (Odi
+ a site) https://cm.odisha.gov.in/index.php/or/latest-news/nauuankhaai-abas
+ ararae-samabalapaura-paain-bada-bhaetai-50-parakalapara-laokaarapana-o\n\n
+ More: https://farmbot.curiosta.com/calendar/#ev-nuakhai
+URL:https://revenue.odisha.gov.in/sites/default/files/2026-10/44027_1.pdf
+CATEGORIES:Festivals and holidays
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:festivals-kumar-purnima-20271015@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
+SUMMARY:Kumar Purnima
+DESCRIPTION:15 Oct 2027. Fixed date. Odisha state holiday.\n\nSource: Odish
+ a Revenue Dept holiday notice\, 30 Oct 2026 https://revenue.odisha.gov.in/
+ sites/default/files/2026-10/44027_1.pdf\nSambad (Odia)\, 30 Oct 2026 https
+ ://sambad.in/state/odisha-government-holidays-2027-29-holidays-announced-s
+ ix-festivals-fall-on-weekends-12769599\n\nMore: https://farmbot.curiosta.c
+ om/calendar/#ev-kumar-purnima
+URL:https://revenue.odisha.gov.in/sites/default/files/2026-10/44027_1.pdf
+CATEGORIES:Festivals and holidays
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

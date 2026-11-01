@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Curiosta//FarmBot Nilabadi calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FarmBot Nilabadi · Pest watch
+X-WR-TIMEZONE:Asia/Kolkata
+X-WR-CALDESC:Farming dates for Nilabadi\, Bandhugaon\, Koraput\, Odisha. ht
+ tps://farmbot.curiosta.com/calendar/
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:pests-pest-week-20261029@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261105
+SUMMARY:Pests and diseases this week: high risk of blast (leaf and neck)\; 
+ watch for sheath blight (estimate)
+DESCRIPTION:29 Oct – 4 Nov 2026. Estimate. Worked out from the weather ea
+ ch Saturday\, so only this week is shown. Walk the field and ask KVK Korap
+ ut before spraying.\n\nSource: Nilabadi pest alerts https://farmbot.curios
+ ta.com/pest-alerts/\n\nMore: https://farmbot.curiosta.com/calendar/#ev-pes
+ t-week
+URL:https://farmbot.curiosta.com/pest-alerts/
+CATEGORIES:Pest watch
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

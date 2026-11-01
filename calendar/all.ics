@@ -1,0 +1,276 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Curiosta//FarmBot Nilabadi calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FarmBot Nilabadi · Everything
+X-WR-TIMEZONE:Asia/Kolkata
+X-WR-CALDESC:Farming dates for Nilabadi\, Bandhugaon\, Koraput\, Odisha. ht
+ tps://farmbot.curiosta.com/calendar/
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:pests-pest-week-20261029@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261105
+SUMMARY:Pests and diseases this week: high risk of blast (leaf and neck)\; 
+ watch for sheath blight (estimate)
+DESCRIPTION:29 Oct – 4 Nov 2026. Estimate. Worked out from the weather ea
+ ch Saturday\, so only this week is shown. Walk the field and ask KVK Korap
+ ut before spraying.\n\nSource: Nilabadi pest alerts https://farmbot.curios
+ ta.com/pest-alerts/\n\nMore: https://farmbot.curiosta.com/calendar/#ev-pes
+ t-week
+URL:https://farmbot.curiosta.com/pest-alerts/
+CATEGORIES:Pest watch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-winter-pulses-20261101@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20270101
+SUMMARY:Winter green gram and black gram: sowing window (estimate)
+DESCRIPTION:Nov to Dec 2026. Estimate. KVK Koraput's sowing window for gree
+ n gram and black gram after the paddy harvest.\n\nSource: KVK Koraput crop
+  guide (Package of Practices) https://www.kvkkoraput.org/upload/menu_08092
+ 025014514.pdf\n\nMore: https://farmbot.curiosta.com/calendar/#ev-winter-pu
+ lses
+URL:https://www.kvkkoraput.org/upload/menu_08092025014514.pdf
+CATEGORIES:Crop work
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:schemes-paddy-buying-20261101@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20270401
+SUMMARY:Paddy buying season in Odisha (estimate)
+DESCRIPTION:1st week of Nov 2026 to 31 Mar 2027. Estimate. The state buys p
+ addy from registered farmers in this window\; each mandi opens on its own 
+ date. The support price for this season is in the government's announcemen
+ t:\n\nSource: Odisha Food Supplies Dept\, farmer registration rules for th
+ is season https://www.foododisha.in/Download/Farmer-Registration-Modalitie
+ s-2026-27.pdf\n\nMore: https://farmbot.curiosta.com/calendar/#ev-paddy-buy
+ ing
+URL:https://www.pib.gov.in/PressReleasePage.aspx?PRID=2260618
+CATEGORIES:Mandi and schemes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:farmbot-weekly-update-20261107@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:FarmBot weekly update
+DESCRIPTION:Every Saturday · next: Sat 7 Nov 2026. Fixed date. New crop\, 
+ pest and weather news for the plots and the village.\n\nSource: FarmBot we
+ ekly reports https://farmbot.curiosta.com/reports/\n\nMore: https://farmbo
+ t.curiosta.com/calendar/#ev-weekly-update
+URL:https://farmbot.curiosta.com/reports/
+CATEGORIES:FarmBot updates
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-ear-check-20261110@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261115
+SUMMARY:Start checking the ears in both plots (estimate)
+DESCRIPTION:From about 10 Nov 2026. Estimate. Harvest when 80–85% of the 
+ grains are straw-coloured and hard.\n\nSource: FarmBot weekly advice https
+ ://farmbot.curiosta.com/insights/#harvest\n\nMore: https://farmbot.curiost
+ a.com/calendar/#ev-ear-check
+URL:https://farmbot.curiosta.com/insights/#harvest
+CATEGORIES:Crop work
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-harvest-20261115@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261206
+SUMMARY:Paddy harvest window: Agnigangamma Temple plot first\, then the Fis
+ hing Pond plot (estimate)
+DESCRIPTION:15 Nov – 5 Dec 2026. Estimate. Rough window from last year's 
+ harvest and this year's planting dates. Check the grain before cutting.\n\
+ nSource: FarmBot weekly advice https://farmbot.curiosta.com/insights/#harv
+ est\n\nMore: https://farmbot.curiosta.com/calendar/#ev-harvest
+URL:https://farmbot.curiosta.com/insights/#harvest
+CATEGORIES:Crop work
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-pond-sowing-20261201@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Green gram on Panchayat Pond water: assumed sowing day (estimate)
+DESCRIPTION:1 Dec 2026. Estimate. The winter water sums on Advice\, yield a
+ nd harvest assume sowing on this day. Sowing later needs more pond water.\
+ n\nSource: KVK Koraput crop guide (Package of Practices) https://www.kvkko
+ raput.org/upload/menu_08092025014514.pdf\n\nMore: https://farmbot.curiosta
+ .com/calendar/#ev-pond-sowing
+URL:https://farmbot.curiosta.com/insights/#winter-water
+CATEGORIES:Crop work
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-winter-paddy-20261201@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20270108
+SUMMARY:Winter paddy sowing\, only where there is irrigation (estimate)
+DESCRIPTION:1st week of Dec 2026 to 1st week of Jan 2027. Estimate. The Kor
+ aput plan's window for irrigated winter paddy.\n\nSource: ICAR-CRIDA Korap
+ ut contingency plan https://www.icar-crida.res.in/CP/Orissa/OUAT\,%20Bhuba
+ neswar/Orissa%2022-%20Koraput%2031.05.2011.pdf\n\nMore: https://farmbot.cu
+ riosta.com/calendar/#ev-winter-paddy
+URL:https://www.icar-crida.res.in/CP/Orissa/OUAT,%20Bhubaneswar/Orissa%2022
+ -%20Koraput%2031.05.2011.pdf
+CATEGORIES:Crop work
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:schemes-world-soil-day-20261205@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:World Soil Day
+DESCRIPTION:5 Dec 2026. Fixed date. A good reminder to get the soil tested 
+ after harvest. KVK Koraput's soil testing is on Where to get help.\n\nSour
+ ce: United Nations\, World Soil Day https://www.un.org/en/observances/worl
+ d-soil-day\n\nMore: https://farmbot.curiosta.com/calendar/#ev-world-soil-d
+ ay
+URL:https://farmbot.curiosta.com/help/
+CATEGORIES:Mandi and schemes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:festivals-makar-sankranti-20270114@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:Makar Sankranti
+DESCRIPTION:14 Jan 2027. Fixed date. Odisha state holiday.\n\nSource: Odish
+ a Revenue Dept holiday notice\, 30 Oct 2026 https://revenue.odisha.gov.in/
+ sites/default/files/2026-10/44027_1.pdf\nSambad (Odia)\, 30 Oct 2026 https
+ ://sambad.in/state/odisha-government-holidays-2027-29-holidays-announced-s
+ ix-festivals-fall-on-weekends-12769599\n\nMore: https://farmbot.curiosta.c
+ om/calendar/#ev-makar-sankranti
+URL:https://revenue.odisha.gov.in/sites/default/files/2026-10/44027_1.pdf
+CATEGORIES:Festivals and holidays
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-summer-pulses-20270215@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270308
+SUMMARY:Summer green gram and black gram sowing\, if pond water lasts (esti
+ mate)
+DESCRIPTION:3rd week of Feb to 1st week of Mar 2027. Estimate. KVK Koraput'
+ s summer sowing window.\n\nSource: KVK Koraput crop guide (Package of Prac
+ tices) https://www.kvkkoraput.org/upload/menu_08092025014514.pdf\n\nMore: 
+ https://farmbot.curiosta.com/calendar/#ev-summer-pulses
+URL:https://www.kvkkoraput.org/upload/menu_08092025014514.pdf
+CATEGORIES:Crop work
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-monsoon-paddy-20270608@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270715
+SUMMARY:Monsoon paddy: nursery and sowing window (estimate)
+DESCRIPTION:2nd week of Jun to 2nd week of Jul 2027. Estimate. The Koraput 
+ plan's window for monsoon paddy.\n\nSource: ICAR-CRIDA Koraput contingency
+  plan https://www.icar-crida.res.in/CP/Orissa/OUAT\,%20Bhubaneswar/Orissa%
+ 2022-%20Koraput%2031.05.2011.pdf\n\nMore: https://farmbot.curiosta.com/cal
+ endar/#ev-monsoon-paddy
+URL:https://www.icar-crida.res.in/CP/Orissa/OUAT,%20Bhubaneswar/Orissa%2022
+ -%20Koraput%2031.05.2011.pdf
+CATEGORIES:Crop work
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:festivals-raja-20270614@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270616
+SUMMARY:Pahili Raja and Raja Sankranti
+DESCRIPTION:14 to 15 Jun 2027. Fixed date. Odisha state holiday on both day
+ s.\n\nSource: Odisha Revenue Dept holiday notice\, 30 Oct 2026 https://rev
+ enue.odisha.gov.in/sites/default/files/2026-10/44027_1.pdf\nSambad (Odia)\
+ , 30 Oct 2026 https://sambad.in/state/odisha-government-holidays-2027-29-h
+ olidays-announced-six-festivals-fall-on-weekends-12769599\n\nMore: https:/
+ /farmbot.curiosta.com/calendar/#ev-raja
+URL:https://revenue.odisha.gov.in/sites/default/files/2026-10/44027_1.pdf
+CATEGORIES:Festivals and holidays
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:festivals-rath-yatra-20270705@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270706
+SUMMARY:Rath Yatra
+DESCRIPTION:5 Jul 2027. Fixed date. Odisha state holiday.\n\nSource: Odisha
+  Revenue Dept holiday notice\, 30 Oct 2026 https://revenue.odisha.gov.in/s
+ ites/default/files/2026-10/44027_1.pdf\nSambad (Odia)\, 30 Oct 2026 https:
+ //sambad.in/state/odisha-government-holidays-2027-29-holidays-announced-si
+ x-festivals-fall-on-weekends-12769599\n\nMore: https://farmbot.curiosta.co
+ m/calendar/#ev-rath-yatra
+URL:https://revenue.odisha.gov.in/sites/default/files/2026-10/44027_1.pdf
+CATEGORIES:Festivals and holidays
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:festivals-nuakhai-20270905@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270907
+SUMMARY:Nuakhai\, the new-rice festival
+DESCRIPTION:5 Sep 2027\, a Sunday\; the holiday is the next day\, 6 Sep 202
+ 7. Fixed date. Odisha state holiday on the day after Nuakhai.\n\nSource: O
+ disha Revenue Dept holiday notice\, 30 Oct 2026 https://revenue.odisha.gov
+ .in/sites/default/files/2026-10/44027_1.pdf\nChief Minister of Odisha (Odi
+ a site) https://cm.odisha.gov.in/index.php/or/latest-news/nauuankhaai-abas
+ ararae-samabalapaura-paain-bada-bhaetai-50-parakalapara-laokaarapana-o\n\n
+ More: https://farmbot.curiosta.com/calendar/#ev-nuakhai
+URL:https://revenue.odisha.gov.in/sites/default/files/2026-10/44027_1.pdf
+CATEGORIES:Festivals and holidays
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:festivals-kumar-purnima-20271015@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
+SUMMARY:Kumar Purnima
+DESCRIPTION:15 Oct 2027. Fixed date. Odisha state holiday.\n\nSource: Odish
+ a Revenue Dept holiday notice\, 30 Oct 2026 https://revenue.odisha.gov.in/
+ sites/default/files/2026-10/44027_1.pdf\nSambad (Odia)\, 30 Oct 2026 https
+ ://sambad.in/state/odisha-government-holidays-2027-29-holidays-announced-s
+ ix-festivals-fall-on-weekends-12769599\n\nMore: https://farmbot.curiosta.c
+ om/calendar/#ev-kumar-purnima
+URL:https://revenue.odisha.gov.in/sites/default/files/2026-10/44027_1.pdf
+CATEGORIES:Festivals and holidays
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:crop-mustard-20271015@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271101
+SUMMARY:Mustard sowing window (estimate)
+DESCRIPTION:Mid to end of Oct 2027. Estimate. KVK Koraput's window for must
+ ard.\n\nSource: KVK Koraput crop guide (Package of Practices) https://www.
+ kvkkoraput.org/upload/menu_08092025014514.pdf\n\nMore: https://farmbot.cur
+ iosta.com/calendar/#ev-mustard
+URL:https://www.kvkkoraput.org/upload/menu_08092025014514.pdf
+CATEGORIES:Crop work
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

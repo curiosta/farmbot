@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Curiosta//FarmBot Nilabadi calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FarmBot Nilabadi · Mandi and schemes
+X-WR-TIMEZONE:Asia/Kolkata
+X-WR-CALDESC:Farming dates for Nilabadi\, Bandhugaon\, Koraput\, Odisha. ht
+ tps://farmbot.curiosta.com/calendar/
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:schemes-paddy-buying-20261101@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20270401
+SUMMARY:Paddy buying season in Odisha (estimate)
+DESCRIPTION:1st week of Nov 2026 to 31 Mar 2027. Estimate. The state buys p
+ addy from registered farmers in this window\; each mandi opens on its own 
+ date. The support price for this season is in the government's announcemen
+ t:\n\nSource: Odisha Food Supplies Dept\, farmer registration rules for th
+ is season https://www.foododisha.in/Download/Farmer-Registration-Modalitie
+ s-2026-27.pdf\n\nMore: https://farmbot.curiosta.com/calendar/#ev-paddy-buy
+ ing
+URL:https://www.pib.gov.in/PressReleasePage.aspx?PRID=2260618
+CATEGORIES:Mandi and schemes
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:schemes-world-soil-day-20261205@farmbot.curiosta.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:World Soil Day
+DESCRIPTION:5 Dec 2026. Fixed date. A good reminder to get the soil tested 
+ after harvest. KVK Koraput's soil testing is on Where to get help.\n\nSour
+ ce: United Nations\, World Soil Day https://www.un.org/en/observances/worl
+ d-soil-day\n\nMore: https://farmbot.curiosta.com/calendar/#ev-world-soil-d
+ ay
+URL:https://farmbot.curiosta.com/help/
+CATEGORIES:Mandi and schemes
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
