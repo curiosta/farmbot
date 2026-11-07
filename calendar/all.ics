@@ -10,24 +10,8 @@ X-WR-CALDESC:Farming dates for Nilabadi\, Bandhugaon\, Koraput\, Odisha. ht
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pests-pest-week-20261029@farmbot.curiosta.com
-DTSTAMP:20261101T000000Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261105
-SUMMARY:Pests and diseases this week: high risk of blast (leaf and neck)\; 
- watch for sheath blight (estimate)
-DESCRIPTION:29 Oct – 4 Nov 2026. Estimate. Worked out from the weather ea
- ch Saturday\, so only this week is shown. Walk the field and ask KVK Korap
- ut before spraying.\n\nSource: Nilabadi pest alerts https://farmbot.curios
- ta.com/pest-alerts/\n\nMore: https://farmbot.curiosta.com/calendar/#ev-pes
- t-week
-URL:https://farmbot.curiosta.com/pest-alerts/
-CATEGORIES:Pest watch
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:crop-winter-pulses-20261101@farmbot.curiosta.com
-DTSTAMP:20261101T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270101
 SUMMARY:Winter green gram and black gram: sowing window (estimate)
@@ -42,7 +26,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:schemes-paddy-buying-20261101@farmbot.curiosta.com
-DTSTAMP:20261101T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270401
 SUMMARY:Paddy buying season in Odisha (estimate)
@@ -58,8 +42,23 @@ CATEGORIES:Mandi and schemes
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:pests-pest-week-20261105@farmbot.curiosta.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261112
+SUMMARY:Pests and diseases this week: nothing above low (estimate)
+DESCRIPTION:5 – 11 Nov 2026. Estimate. Worked out from the weather each S
+ aturday\, so only this week is shown. Walk the field and ask KVK Koraput b
+ efore spraying.\n\nSource: Nilabadi pest alerts https://farmbot.curiosta.c
+ om/pest-alerts/\n\nMore: https://farmbot.curiosta.com/calendar/#ev-pest-we
+ ek
+URL:https://farmbot.curiosta.com/pest-alerts/
+CATEGORIES:Pest watch
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:farmbot-weekly-update-20261107@farmbot.curiosta.com
-DTSTAMP:20261101T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 RRULE:FREQ=WEEKLY;BYDAY=SA
@@ -74,7 +73,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:crop-ear-check-20261110@farmbot.curiosta.com
-DTSTAMP:20261101T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261115
 SUMMARY:Start checking the ears in both plots (estimate)
@@ -88,7 +87,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:crop-harvest-20261115@farmbot.curiosta.com
-DTSTAMP:20261101T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261206
 SUMMARY:Paddy harvest window: Agnigangamma Temple plot first\, then the Fis
@@ -103,7 +102,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:crop-pond-sowing-20261201@farmbot.curiosta.com
-DTSTAMP:20261101T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Green gram on Panchayat Pond water: assumed sowing day (estimate)
@@ -118,7 +117,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:crop-winter-paddy-20261201@farmbot.curiosta.com
-DTSTAMP:20261101T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20270108
 SUMMARY:Winter paddy sowing\, only where there is irrigation (estimate)
@@ -134,7 +133,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:schemes-world-soil-day-20261205@farmbot.curiosta.com
-DTSTAMP:20261101T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:World Soil Day
@@ -149,7 +148,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:festivals-makar-sankranti-20270114@farmbot.curiosta.com
-DTSTAMP:20261101T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Makar Sankranti
@@ -165,7 +164,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:crop-summer-pulses-20270215@farmbot.curiosta.com
-DTSTAMP:20261101T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270308
 SUMMARY:Summer green gram and black gram sowing\, if pond water lasts (esti
@@ -180,7 +179,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:crop-monsoon-paddy-20270608@farmbot.curiosta.com
-DTSTAMP:20261101T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20270608
 DTEND;VALUE=DATE:20270715
 SUMMARY:Monsoon paddy: nursery and sowing window (estimate)
@@ -196,7 +195,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:festivals-raja-20270614@farmbot.curiosta.com
-DTSTAMP:20261101T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270616
 SUMMARY:Pahili Raja and Raja Sankranti
@@ -212,7 +211,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:festivals-rath-yatra-20270705@farmbot.curiosta.com
-DTSTAMP:20261101T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20270705
 DTEND;VALUE=DATE:20270706
 SUMMARY:Rath Yatra
@@ -228,7 +227,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:festivals-nuakhai-20270905@farmbot.curiosta.com
-DTSTAMP:20261101T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20270905
 DTEND;VALUE=DATE:20270907
 SUMMARY:Nuakhai\, the new-rice festival
@@ -245,7 +244,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:festivals-kumar-purnima-20271015@farmbot.curiosta.com
-DTSTAMP:20261101T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20271015
 DTEND;VALUE=DATE:20271016
 SUMMARY:Kumar Purnima
@@ -261,7 +260,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:crop-mustard-20271015@farmbot.curiosta.com
-DTSTAMP:20261101T000000Z
+DTSTAMP:20261107T000000Z
 DTSTART;VALUE=DATE:20271015
 DTEND;VALUE=DATE:20271101
 SUMMARY:Mustard sowing window (estimate)

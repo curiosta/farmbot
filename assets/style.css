@@ -226,5 +226,24 @@ button.btn{font-family:var(--sans);cursor:pointer}
 .card.tool h3{font-size:1.1rem;margin:0 0 .35em}.card.tool p{margin:0 0 .5em;font-size:.97rem}
 .card.tool .credit{display:block;font-size:.75rem;line-height:1.4;color:var(--muted)}
 .card.tool .credit a{color:var(--sea-500)}
-/* Ask FarmBot button (chat kit, not edited here): smaller on phones so it hides less of the first screen (QC 1 Nov 2026, WARN 1) */
-@media(max-width:480px){html .btw-root .btw-fab{padding:7px 12px;min-height:44px;font-size:14px;right:calc(8px + env(safe-area-inset-right));bottom:calc(8px + env(safe-area-inset-bottom))}}
+
+/* /services/ tools: avoid a lone card on the last row at 1280 (7 cards → 4+3) */
+@media(min-width:901px){.tools{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(min-width:901px) and (max-width:1100px){.tools{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* Ask FarmBot button (chat kit .btw-fab, kit not edited here) must never cover page text (Site QC 7 Nov 2026, FAIL 3).
+   1200px and wider: the page column is narrowed, so the button sits in the empty right margin beside it.
+   Narrower: the button sits in its own sand-coloured bar at the bottom of the screen. Text scrolls up behind the bar,
+   as it does under the top menu, and the page ends above the bar. The bar shows only while the button shows. */
+:root{--fab-dock:60px;--fab-gutter:190px}
+@media(max-width:1199px){
+  html .btw-root .btw-fab{padding:7px 14px;min-height:44px;font-size:14px;right:calc(12px + env(safe-area-inset-right));bottom:calc(8px + env(safe-area-inset-bottom))}
+  body:has(.btw-fab:not([hidden]))::after{content:"";position:fixed;left:0;right:0;bottom:0;height:calc(var(--fab-dock) + env(safe-area-inset-bottom));background:var(--sand);border-top:1px solid var(--line);box-shadow:0 -4px 14px rgba(4,23,38,.08);z-index:2147482999;pointer-events:none}
+  body:has(.btw-fab:not([hidden])){padding-bottom:calc(var(--fab-dock) + env(safe-area-inset-bottom))}
+}
+@media(min-width:1200px){
+  main .wrap, footer .wrap{max-width:min(1120px, calc(100vw - 2 * var(--fab-gutter)))}
+  main .wrap.narrow{max-width:min(780px, calc(100vw - 2 * var(--fab-gutter)))}
+  html .btw-root .btw-fab{max-width:calc(var(--fab-gutter) - 24px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+}
+@media print{body::after{display:none!important}body{padding-bottom:0!important}}
