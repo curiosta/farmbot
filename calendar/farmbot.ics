@@ -11,15 +11,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:farmbot-weekly-update-20261107@farmbot.curiosta.com
-DTSTAMP:20261107T000000Z
+DTSTAMP:20261121T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 RRULE:FREQ=WEEKLY;BYDAY=SA
 SUMMARY:FarmBot weekly update
-DESCRIPTION:Every Saturday · next: Sat 7 Nov 2026. Fixed date. New crop\, 
- pest and weather news for the plots and the village.\n\nSource: FarmBot we
- ekly reports https://farmbot.curiosta.com/reports/\n\nMore: https://farmbo
- t.curiosta.com/calendar/#ev-weekly-update
+DESCRIPTION:Every Saturday · next: Sat 21 Nov 2026. Fixed date. New crop\,
+  pest and weather news for the plots and the village.\n\nSource: FarmBot w
+ eekly reports https://farmbot.curiosta.com/reports/\n\nMore: https://farmb
+ ot.curiosta.com/calendar/#ev-weekly-update
 URL:https://farmbot.curiosta.com/reports/
 CATEGORIES:FarmBot updates
 TRANSP:TRANSPARENT
